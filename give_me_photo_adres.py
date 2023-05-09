@@ -7,5 +7,5 @@ def give_me_photo_adress():
         photo_adress = "0000" + str(ran)
     else:
         photo_adress = "00000" + str(ran)
-    a = glob.glob("C:/Users/main/Desktop/OPD_2/pic/" + photo_adress + "*")
+    a = glob.glob("C:/Users/main/Desktop/OPD_Lab2/pic/" + photo_adress + "*")
     return a
